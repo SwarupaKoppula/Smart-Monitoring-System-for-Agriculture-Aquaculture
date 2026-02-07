@@ -57,6 +57,7 @@ Aquaculture: DO below safe limit or pH outside acceptable range → aeration ale
 Critical alerts can be evaluated at the edge layer to minimize latency, while the cloud layer supports historical analysis, logging, and user notifications.
 
 ## Sample Data Payload
+
 '''json
 {
   "temperature": 28.9,
