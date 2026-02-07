@@ -49,14 +49,6 @@ When pH or dissolved oxygen values exceed safe limits, an aeration alert is gene
 
 Alert conditions can be evaluated at both edge and cloud levels.
 
-## Sample Output
-{
-  "timestamp": "2026-02-07T10:30:00",
-  "soil_moisture": 26,
-  "temperature": 32,
-  "alert_status": "Irrigation Alert"
-}
-
 ## Conclusion
 
 The AQUAGUARD system demonstrates a practical implementation of an IoT-based smart monitoring system. It satisfies the requirements of sensor selection, data flow, alert logic, and edge–cloud integration, making it suitable for real-world agriculture and aquaculture applications.
