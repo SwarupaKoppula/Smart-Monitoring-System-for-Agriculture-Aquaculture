@@ -9,7 +9,8 @@ Target parameters include soil moisture and temperature for agricultural use cas
 
 The system follows a layered IoT edge–cloud architecture:
 
-Sensor Layer → Edge/Gateway Layer → Cloud Layer → Application Layer
+
+### Sensor Layer → Edge/Gateway Layer → Cloud Layer → Application Layer
 
 
 Sensor Layer: Acquires environmental data using analog and digital sensors
