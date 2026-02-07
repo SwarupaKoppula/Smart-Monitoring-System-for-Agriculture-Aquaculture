@@ -47,7 +47,6 @@ When soil moisture falls below a predefined limit, an irrigation alert is genera
 ### Aquaculture:
 When pH or dissolved oxygen values exceed safe limits, an aeration alert is generated.
 
-Alert conditions can be evaluated at both edge and cloud levels.
 
 ## Conclusion
 
