@@ -9,42 +9,8 @@ Target parameters include soil moisture and temperature for agricultural use cas
 
 The system follows a layered IoT edge–cloud architecture:
 
-START
+##### Sensor Layer → Edge/Gateway Layer → Cloud Layer → Application Layer
 
-Initialize Sensors
-Initialize IoT Gateway (ESP32 / Arduino / Raspberry Pi)
-Initialize Network (Wi-Fi)
-
-LOOP
-    Read Temperature Sensor
-    Read Soil Moisture / pH Sensor
-    Read Dissolved Oxygen Sensor
-
-    Validate Sensor Data
-    Convert Raw Data to Engineering Units
-
-    IF (Agriculture Mode)
-        IF (Soil_Moisture < Moisture_Threshold)
-            Trigger Irrigation Alert
-        END IF
-    END IF
-
-    IF (Aquaculture Mode)
-        IF (DO < DO_Threshold OR pH < pH_Min OR pH > pH_Max)
-            Trigger Aeration Alert
-        END IF
-    END IF
-
-    Create JSON Payload
-    Transmit Data to Cloud (MQTT / HTTP)
-
-    Update Dashboard
-    Log Data to Cloud Storage
-
-    Delay (Sampling Interval)
-END LOOP
-
-END
 
 
 Sensor Layer: Acquires environmental data using analog and digital sensors
