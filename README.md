@@ -58,12 +58,14 @@ Critical alerts can be evaluated at the edge layer to minimize latency, while th
 
 ## Sample Data Payload
 
+```json
 {
   "timestamp": "2026-02-07T10:30:00",
   "soil_moisture": 28,
   "temperature": 31,
   "alert": "Irrigation Required"
 }
+```
 
 
 ## Monitoring and Visualization
